@@ -21,4 +21,4 @@ SampleLoginTestCase
     Click Element    id=welcome
     Click Element    link=Logout            
     Close Browser
-    Log    Test is completed  by  
+    Log    Test is completed  by  %{username} on %{os}
