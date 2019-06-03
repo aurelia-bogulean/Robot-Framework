@@ -23,6 +23,9 @@ MySecondTest
 MyThirdTest
     Log I am inside the 3rd test
     
+MyFourthTest
+    Log I am inside the 4th test
+    
 SampleLoginTestCase
     [Documentation]    This is a sample login test case
     Open Browser       ${url}     chrome
