@@ -10,7 +10,19 @@ ${URL}    https://opensource-demo.orangehrmlive.com/
 #Dictionary variable
 &{LOGINDATA}    username=Admin    password=admin123
 
+
+
 *** Test Cases ***
+
+MyFirstTest
+    Log Hello World
+    
+MySecondTest
+    Log I am inside the second test
+    
+MyThirdTest
+    Log I am inside the 3rd test
+    
 SampleLoginTestCase
     [Documentation]    This is a sample login test case
     Open Browser       ${url}     chrome
